@@ -1,0 +1,1 @@
+Get-service | where {$_.Status -eq "Running"} | select Name, Status

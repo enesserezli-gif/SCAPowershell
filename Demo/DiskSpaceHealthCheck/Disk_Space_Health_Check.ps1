@@ -4,7 +4,7 @@ param(
     [int]$CriticalThreshold = 10,
     [string]$ReportPath = (Join-Path $env:USERPROFILE "Desktop\DiskHealthReport_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv")
 )
-
+#Result array
 $results = foreach ($computer in $ComputerName) {
 
     write-Host ""

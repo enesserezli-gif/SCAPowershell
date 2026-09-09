@@ -1,6 +1,6 @@
 # SCAPowershell
 
-# Disk Space Healt Check
+# Disk Space Health Check
 
 A PowerShell tool checks every fixwd drive across one or more Windows machines, calculates how full each is, and flags any drive running low on space - printing a color-coded status as it goes and expoerting one combined CSV report.
 
